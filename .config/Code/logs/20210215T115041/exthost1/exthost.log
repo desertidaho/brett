@@ -32,3 +32,5 @@
 [2021-02-15 11:51:24.276] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
 [2021-02-15 11:51:32.875] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
 [2021-02-15 11:51:32.875] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-02-15 11:53:05.492] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 5000
+[2021-02-15 11:55:56.431] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7872

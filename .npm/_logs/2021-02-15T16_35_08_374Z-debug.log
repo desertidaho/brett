@@ -1,0 +1,15 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@6.14.11
+3 info using node@v14.15.5
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle ipfs-desktop@0.13.2~prestart: ipfs-desktop@0.13.2
+6 info lifecycle ipfs-desktop@0.13.2~start: ipfs-desktop@0.13.2
+7 verbose lifecycle ipfs-desktop@0.13.2~start: unsafe-perm in lifecycle true
+8 verbose lifecycle ipfs-desktop@0.13.2~start: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/brett/ipfs-desktop/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+9 verbose lifecycle ipfs-desktop@0.13.2~start: CWD: /home/brett/ipfs-desktop
+10 silly lifecycle ipfs-desktop@0.13.2~start: Args: [ '-c', 'cross-env NODE_ENV=development electron .' ]
+11 timing npm Completed in 720959ms
+12 error cb() never called!
+13 error This is an error with npm itself. Please report this error at:
+14 error <https://npm.community>
