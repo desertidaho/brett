@@ -1,3 +1,4 @@
 [2021-02-15 11:50:42.217] [main] [info] update#setState idle
 [2021-02-15 11:51:12.220] [main] [info] update#setState checking for updates
 [2021-02-15 11:51:12.436] [main] [info] update#setState idle
+[2021-02-15 11:59:46.264] [main] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: scm/input:Git:/home/brett Length: 49
