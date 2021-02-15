@@ -47,8 +47,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -667,8 +666,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1549,7 +1547,8 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/brett/.config/Code/Backups/1613415845501",
+            "folder": "file:///home/brett/di",
+            "backupPath": "/home/brett/.config/Code/Backups/41e6b1a38f75ac40075ef31a41421ca6",
             "uiState": {
                 "mode": 0,
                 "x": 0,
