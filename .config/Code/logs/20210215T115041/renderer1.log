@@ -1,2 +1,7 @@
 [2021-02-15 11:50:44.797] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/brett/Foundation-Sites-6.6.3-CSS/.vscode'
 [2021-02-15 11:52:52.547] [renderer1] [error] Failed to execute git
+[2021-02-15 11:58:21.260] [renderer1] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: __$__targetStorageMarker Length: 874
+[2021-02-15 11:58:21.262] [renderer1] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (DELETE FROM ItemTable WHERE key IN (?)). Details: Keys: workbench.sidebar.activeviewletid
+[2021-02-15 11:58:30.138] [renderer1] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?)). Details: Keys: __$__targetStorageMarker, workbench.sidebar.activeviewletid Length: 930
+[2021-02-15 11:58:45.047] [renderer1] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: memento/workbench.editors.files.textFileEditor Length: 450
+[2021-02-15 11:59:01.979] [renderer1] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: memento/workbench.editors.files.textFileEditor Length: 450
