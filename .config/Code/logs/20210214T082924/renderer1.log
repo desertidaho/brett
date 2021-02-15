@@ -1,0 +1,2 @@
+[2021-02-14 08:29:46.568] [renderer1] [warning] UNRESPONSIVE extension host, 'ritwickdey.LiveServer' took 99% of 5354.798ms, saved PROFILE here: '/tmp/exthost-509bc6.cpuprofile' [{"id":"gc","total":50098,"percentage":1},{"id":"ritwickdey.LiveServer","total":5304135,"percentage":99}]
+[2021-02-14 08:29:59.782] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/brett/graphql1/.vscode'

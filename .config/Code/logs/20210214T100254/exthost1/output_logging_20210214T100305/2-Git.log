@@ -1,0 +1,27 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/brett/ipfs-desktop
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git check-ignore -v -z --stdin
+Warning: Failed to watch ref '/home/brett/ipfs-desktop/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/brett/ipfs-desktop/package.json
+> git cat-file -s 3709372c9d29c11b53318b415dad48c2c1d135bc
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/daemon/index.js
+> git ls-files --stage -- /home/brett/ipfs-desktop/src/daemon/index.js
+> git cat-file -s 63ac0899eb3f4ed1185cedc05a864690d8a533c6
+> git check-ignore -v -z --stdin
+> git show --textconv :package.json
+> git ls-files --stage -- /home/brett/ipfs-desktop/package.json
+> git cat-file -s 3709372c9d29c11b53318b415dad48c2c1d135bc
+> git show --textconv :src/daemon/index.js
+> git ls-files --stage -- /home/brett/ipfs-desktop/src/daemon/index.js
+> git cat-file -s 63ac0899eb3f4ed1185cedc05a864690d8a533c6

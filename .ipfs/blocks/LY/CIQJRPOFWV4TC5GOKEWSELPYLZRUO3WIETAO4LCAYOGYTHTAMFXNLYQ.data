@@ -1,0 +1,57 @@
+
+’Š<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<title>Web History Project: Search</title>
+</head>
+<body bgcolor="#FFFFFF" vlink="#68675F" link="#CC0000" background="../media/background.gif">
+<basefont=3>
+
+<!--#include virtual="/template.top.html"-->
+
+<p><font size=+2><b><a name="search">Search</a></b></font>
+
+<p>From here you can search for content on our Web site only. If you want to search through materials in our archives, please go to our <a href="../archive/browse.html">archival search section</a>.
+
+<form action="http://1997.webhistory.org/cgi-bin/search" name="searchForm" onSubmit="validateForm(this);return false">
+<center>
+<b>Search</b>&nbsp;<select name="index">
+<option value="index.swish"> Entire site
+<option value="index.mail.swish"> Old mail archives
+</select><b>for:</b>&nbsp;<input type="text" name="keywords" size="20">
+</center>
+</form>
+
+<p><font size=+2><b><a name="index">Site Index</a></b></font><br>
+<img src="../media/line.gif" alt="" width=350 height=2>
+
+<p>
+
+<center><table><tr><td>
+<p><a href="../home.html"><b>Home</b></a><br>
+<a href="../project/index.html"><b>Project</b></a><br>
+<blockquote>
+	<a href="../project/about.html">Overview</a><br>
+	<a href="../project/book.html">About the Book</a><br>
+	<a href="../project/archives.html">About the Archives</a><br>
+	<a href="../project/people.html">Project Members</a><br>
+	<a href="../project/sponsors.html">Sponsor and Contributors</a><br>
+	<a href="../project/support.html">Request for Support</a><br>
+	<a href="../project/contact.html">Contact Information</a><br>
+</blockquote>
+<a href="../archive/index.html"><b>Archives</b></a><br>
+<blockquote>
+	<a href="../archive/browse.html">Browse the Archives</a><br>
+	<a href="../archive/timeline.html">Browse the Timeline</a><br>
+</blockquote>
+<a href="../lists/index.html"><b>Mailing Lists</b></a><br>
+<a href="../legal.html"><b>Legal Information</b></a><br>
+</td></tr></table></center>
+
+<p>
+<p><img src="../media/line.gif" alt="" width=350 height=2>
+<p>
+
+<!--#include virtual="/template.bottom.html"-->
+
+Š

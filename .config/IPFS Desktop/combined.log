@@ -1,0 +1,101 @@
+2021-02-14T16:13:14.566Z info: [meta] logs can be found on /home/brett/.config/IPFS Desktop
+2021-02-14T16:13:17.712Z info: [web ui] window ready
+2021-02-14T16:13:17.717Z info: [web ui] navigate to /
+2021-02-14T16:13:17.841Z info: [tray] starting
+2021-02-14T16:13:18.326Z info: [tray] started
+2021-02-14T16:13:18.327Z info: [ipfsd] start daemon STARTED
+2021-02-14T16:13:23.937Z info: [daemon] PeerID is 12D3KooWARUNBJGBHod5iUgLaYcTQENcPauYGp6YAXgFZNCp7x1N
+2021-02-14T16:13:23.937Z info: [daemon] Repo is at /home/brett/.ipfs
+2021-02-14T16:13:23.967Z info: [ipfsd] start daemon FINISHED 5.6394137570000025s
+2021-02-14T16:13:24.037Z info: [launch on startup] unavailable during development
+2021-02-14T16:13:24.039Z info: [automatic gc] enabled
+2021-02-14T16:13:24.046Z info: [pubsub] disabled
+2021-02-14T16:13:24.049Z info: [ipns over pubsub] disabled
+2021-02-14T16:13:24.070Z info: [npm on ipfs] 1st time running and package is not installed
+2021-02-14T16:13:25.142Z info: [ipfs on path] no-sudo: stderr: internal/fs/utils.js:220
+    throw err;
+    ^
+
+Error: EACCES: permission denied, symlink '/home/brett/ipfs-desktop/src/ipfs-on-path/scripts/ipfs.sh' -> '/usr/local/bin/ipfs'
+    at Object.symlinkSync (fs.js:994:3)
+    at Object.createSymlinkSync (/home/brett/ipfs-desktop/node_modules/fs-extra/lib/ensure/symlink.js:55:25)
+    at Object.<anonymous> (/home/brett/ipfs-desktop/src/ipfs-on-path/scripts/install.js:51:4)
+    at Module._compile (internal/modules/cjs/loader.js:967:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1004:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Module._load (internal/modules/cjs/loader.js:727:14)
+    at Function.Module._load (electron/js2c/asar.js:769:28)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:1056:10)
+    at internal/main/run_main_module.js:17:11 {
+  errno: -13,
+  syscall: 'symlink',
+  code: 'EACCES',
+  path: '/home/brett/ipfs-desktop/src/ipfs-on-path/scripts/ipfs.sh',
+  dest: '/usr/local/bin/ipfs'
+}
+2021-02-14T16:33:54.130Z info: [meta] logs can be found on /home/brett/.config/IPFS Desktop
+2021-02-14T16:33:57.481Z info: [web ui] window ready
+2021-02-14T16:33:57.484Z info: [web ui] navigate to /
+2021-02-14T16:33:57.572Z info: [tray] starting
+2021-02-14T16:33:58.143Z info: [tray] started
+2021-02-14T16:33:58.145Z info: [ipfsd] start daemon STARTED
+2021-02-14T16:33:59.932Z info: [daemon] removing api file
+2021-02-14T16:34:01.958Z info: [ipfsd] start daemon FINISHED 3.8123240960000113s
+2021-02-14T16:34:02.066Z info: [launch on startup] unavailable during development
+2021-02-14T16:34:02.069Z info: [automatic gc] enabled
+2021-02-14T16:34:02.075Z info: [pubsub] disabled
+2021-02-14T16:34:02.076Z info: [ipns over pubsub] disabled
+2021-02-14T16:34:02.083Z info: [ipfs on path] no action taken
+2021-02-14T17:04:08.982Z info: [meta] logs can be found on /home/brett/.config/IPFS Desktop
+2021-02-14T17:04:14.373Z info: [web ui] window ready
+2021-02-14T17:04:14.375Z info: [web ui] navigate to /
+2021-02-14T17:04:14.534Z info: [tray] starting
+2021-02-14T17:04:15.223Z info: [tray] started
+2021-02-14T17:04:15.232Z info: [ipfsd] start daemon STARTED
+2021-02-14T17:04:16.940Z info: [daemon] removing api file
+2021-02-14T17:04:19.938Z info: [ipfsd] start daemon FINISHED 4.706042903000023s
+2021-02-14T17:04:20.139Z info: [launch on startup] unavailable during development
+2021-02-14T17:04:20.153Z info: [automatic gc] enabled
+2021-02-14T17:04:20.158Z info: [pubsub] disabled
+2021-02-14T17:04:20.167Z info: [ipns over pubsub] disabled
+2021-02-14T17:04:20.190Z info: [ipfs on path] no action taken
+2021-02-14T17:07:21.431Z info: [web ui] window hidden
+2021-02-14T17:08:27.485Z info: [meta] logs can be found on /home/brett/.config/IPFS Desktop
+2021-02-14T17:08:30.280Z info: [web ui] window ready
+2021-02-14T17:08:30.283Z info: [web ui] navigate to /
+2021-02-14T17:08:30.364Z info: [tray] starting
+2021-02-14T17:08:30.722Z info: [tray] started
+2021-02-14T17:08:30.727Z info: [ipfsd] start daemon STARTED
+2021-02-14T17:08:31.554Z info: [daemon] removing api file
+2021-02-14T17:08:33.391Z info: [ipfsd] start daemon FINISHED 2.6640718339998277s
+2021-02-14T17:08:33.514Z info: [launch on startup] unavailable during development
+2021-02-14T17:08:33.517Z info: [automatic gc] enabled
+2021-02-14T17:08:33.520Z info: [pubsub] disabled
+2021-02-14T17:08:33.521Z info: [ipns over pubsub] disabled
+2021-02-14T17:08:33.533Z info: [ipfs on path] no action taken
+2021-02-14T17:09:35.431Z info: [meta] logs can be found on /home/brett/.config/IPFS Desktop
+2021-02-14T17:09:37.962Z info: [web ui] window ready
+2021-02-14T17:09:37.974Z info: [web ui] navigate to /
+2021-02-14T17:09:38.007Z info: [tray] starting
+2021-02-14T17:09:38.328Z info: [tray] started
+2021-02-14T17:09:38.330Z info: [ipfsd] start daemon STARTED
+2021-02-14T17:09:39.347Z info: [daemon] removing api file
+2021-02-14T17:09:40.966Z info: [ipfsd] start daemon FINISHED 2.635578772000037s
+2021-02-14T17:09:41.134Z info: [launch on startup] unavailable during development
+2021-02-14T17:09:41.137Z info: [automatic gc] enabled
+2021-02-14T17:09:41.151Z info: [pubsub] disabled
+2021-02-14T17:09:41.174Z info: [ipns over pubsub] disabled
+2021-02-14T17:09:41.231Z info: [ipfs on path] no action taken
+2021-02-15T16:23:10.519Z info: [meta] logs can be found on /home/brett/.config/IPFS Desktop
+2021-02-15T16:23:18.632Z info: [web ui] window ready
+2021-02-15T16:23:18.635Z info: [web ui] navigate to /
+2021-02-15T16:23:19.136Z info: [tray] starting
+2021-02-15T16:23:20.864Z info: [tray] started
+2021-02-15T16:23:20.884Z info: [ipfsd] start daemon STARTED
+2021-02-15T16:23:23.357Z info: [daemon] removing api file
+2021-02-15T16:23:27.532Z info: [ipfsd] start daemon FINISHED 6.647397272000002s
+2021-02-15T16:23:28.150Z info: [launch on startup] unavailable during development
+2021-02-15T16:23:28.152Z info: [automatic gc] enabled
+2021-02-15T16:23:28.154Z info: [pubsub] disabled
+2021-02-15T16:23:28.156Z info: [ipns over pubsub] disabled
+2021-02-15T16:23:28.190Z info: [ipfs on path] no action taken

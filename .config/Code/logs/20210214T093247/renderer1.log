@@ -1,0 +1,1 @@
+[2021-02-14 09:32:52.954] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/brett/ipfs-desktop/.vscode'

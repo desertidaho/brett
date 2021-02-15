@@ -1,0 +1,30 @@
+{
+	"ipfsConfig": {
+		"type": "go",
+		"path": "/home/brett/.ipfs",
+		"flags": [
+			"--migrate",
+			"--enable-gc",
+			"--routing",
+			"dhtclient"
+		]
+	},
+	"language": "en-US",
+	"experiments": {
+		"npmOnIpfs": false
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "6.0.0"
+		}
+	},
+	"automaticGC": true,
+	"openWebUIAtLaunch": true,
+	"ipfsOnPath": false,
+	"window": {
+		"width": 1920,
+		"height": 1000
+	},
+	"daemonConfigRevision": 1,
+	"checkedCorsConfig": true
+}

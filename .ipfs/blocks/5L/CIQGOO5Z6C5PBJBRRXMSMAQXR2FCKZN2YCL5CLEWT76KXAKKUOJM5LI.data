@@ -1,0 +1,243 @@
+
+�R�R<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <title>About | Diffuse</title>
+
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Favicons & Mobile -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png" />
+  <link rel="manifest" href="../site.webmanifest" />
+  <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#e79680" />
+  <meta name="msapplication-TileColor" content="#e79680" />
+  <meta name="theme-color" content="#1e191a" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../about.css" />
+
+</head>
+<body class="bg-white font-body my-16 px-4 text-base01">
+
+
+  <main class="max-w-2xl mx-auto">
+    <a class="inline-block logo" href="../">
+      <img src="../images/diffuse-dark.svg" />
+      <h1>Diffuse</h1>
+    </a>
+
+    <blockquote>
+<p>A music player that connects to your cloud &amp; distributed storage</p>
+</blockquote>
+<p><a href="../">Return to the application</a></p>
+<h2>What makes it different?</h2>
+<p>Diffuse is a decentralized music player consisting out of two main parts. One part is the music and the other is your data <small>(eg. playlists)</small>, both of which are in locations of your choice. Meaning that there’s no central server for Diffuse, all of the processing happens on your device and all the data is in your control. You can use the <a href="https://diffuse.sh">web version</a>, the <a href="https://github.com/icidasset/diffuse/releases">native version</a> or host it yourself by downloading the pre-built packages from <a href="https://github.com/icidasset/diffuse">Github</a>.</p>
+<h3>Music layer</h3>
+<p>This layer connects to the services on which your music is stored, no data is written to these services. You can combine all of the following:</p>
+<ul>
+<li><a href="https://aws.amazon.com/s3/">Amazon S3</a></li>
+<li><a href="https://azure.microsoft.com/en-us/services/storage/blobs/">Azure Blob Storage</a></li>
+<li><a href="https://azure.microsoft.com/en-us/services/storage/files/">Azure File Storage</a></li>
+<li><a href="https://dropbox.com/">Dropbox</a></li>
+<li><a href="https://drive.google.com/">Google Drive</a></li>
+<li><a href="https://ipfs.io/">IPFS</a> <small>(supports DNSLink &amp; IPNS)</small></li>
+<li><a href="https://en.wikipedia.org/wiki/WebDAV">WebDAV</a></li>
+</ul>
+<h3>User layer</h3>
+<p>This layer will use a single service on which to store your data. Your data being your settings, favourites, playlists, etc. You can choose between these services:</p>
+<ul>
+<li><a href="https://blockstack.org/">Blockstack</a></li>
+<li><a href="https://www.dropbox.com/">Dropbox</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB</a> <small>(Browser)</small></li>
+<li><a href="https://ipfs.io/">IPFS</a> <small>(using MFS)</small></li>
+<li><a href="https://remotestorage.io/">RemoteStorage</a></li>
+<li><a href="https://github.com/textileio/go-textile">Textile</a></li>
+</ul>
+<div id="How" />
+<h2>How does it work?</h2>
+<p>Diffuse locates all the music files on the given services, extracts the metadata and then stores it via the previously-explained user layer.</p>
+<h3>Supported File Formats</h3>
+<ul>
+<li>MP3</li>
+<li>MP4/M4A</li>
+<li>FLAC</li>
+<li>OGG</li>
+<li>WAV</li>
+<li>WEBM</li>
+</ul>
+<p><small><em>Note, support may vary depending on your <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Containers#Index_of_media_container_formats_file_types">browser</a>.</em></small></p>
+<div id="CORS" />
+<h3>CORS</h3>
+<p>There’s only one thing you need to do yourself so that the service you chose will work with the application, and that’s setting up <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS</a> (Cross-Origin Resource Sharing). Here are the instructions you’ll need for each service:</p>
+<div id="CORS__S3" />
+<h4>Amazon S3</h4>
+<p>You can find the CORS configuration editor under the “Permissions” tab, on the S3 AWS Console.</p>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;CORSConfiguration xmlns=&quot;http://s3.amazonaws.com/doc/2006-03-01/&quot;&gt;
+&lt;CORSRule&gt;
+    &lt;AllowedOrigin&gt;*&lt;/AllowedOrigin&gt;
+    &lt;AllowedMethod&gt;GET&lt;/AllowedMethod&gt;
+    &lt;AllowedMethod&gt;HEAD&lt;/AllowedMethod&gt;
+    &lt;MaxAgeSeconds&gt;31536000&lt;/MaxAgeSeconds&gt;
+    &lt;ExposeHeader&gt;Content-Length&lt;/ExposeHeader&gt;
+    &lt;ExposeHeader&gt;Content-Type&lt;/ExposeHeader&gt;
+    &lt;AllowedHeader&gt;Range&lt;/AllowedHeader&gt;
+&lt;/CORSRule&gt;
+&lt;/CORSConfiguration&gt;
+</code></pre>
+<div id="CORS__BTFS" />
+<h4>BTFS</h4>
+<p>Add the domain of the app, with the protocol, to the <strong>list of allowed origins</strong>.</p>
+<pre><code class="language-shell">btfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '[&quot;https://diffuse.sh&quot;, &quot;http://diffuse.sh.ipns.localhost:8080&quot;, &quot;http://127.0.0.1:44999&quot;]'
+</code></pre>
+<p>You can also make this change in the Web UI, you’ll find it under “Settings → BTFS Config”.</p>
+<pre><code class="language-javascript">{
+  &quot;API&quot;: {
+    &quot;HTTPHeaders&quot;: {
+      &quot;Access-Control-Allow-Origin&quot;: [
+        &quot;https://diffuse.sh&quot;,                       // 🎵 Default
+        &quot;http://diffuse.sh.ipns.localhost:8080&quot;,    // IPNS
+        &quot;http://127.0.0.1:44999&quot;                    // Electron app
+      ]
+    }
+  }
+}
+</code></pre>
+<div id="CORS__Dropbox" />
+<h4>Dropbox</h4>
+<p><em>Not necessary.</em></p>
+<div id="CORS__Google-Drive" />
+<h4>Google Drive</h4>
+<p><em>Not necessary.</em></p>
+<div id="CORS__IPFS" />
+<h4>IPFS</h4>
+<p>Add the domain of the app, with the protocol, to the <strong>list of allowed origins</strong>.</p>
+<pre><code class="language-shell">ipfs config --json API.HTTPHeaders.Access-Control-Allow-Origin '[&quot;https://diffuse.sh&quot;, &quot;http://diffuse.sh.ipns.localhost:8080&quot;, &quot;http://127.0.0.1:44999&quot;]'
+</code></pre>
+<p>You can also make this change in the Web UI, you’ll find it under “Settings → IPFS Config”.</p>
+<pre><code class="language-javascript">{
+  &quot;API&quot;: {
+    &quot;HTTPHeaders&quot;: {
+      &quot;Access-Control-Allow-Origin&quot;: [
+        &quot;https://diffuse.sh&quot;,                       // 🎵 Default
+        &quot;http://diffuse.sh.ipns.localhost:8080&quot;,    // IPNS through IPFS Companion
+        &quot;http://127.0.0.1:44999&quot;                    // Electron app
+      ]
+    }
+  }
+}
+</code></pre>
+<div id="CORS__Azure" />
+<h4>Microsoft Azure Storage</h4>
+<p>You can find the CORS configuration under the “Settings -&gt; CORS”.<br />
+Then fill in the following in the input boxes (left to right):</p>
+<pre><code>ALLOWED ORIGINS       *
+ALLOWED METHODS       GET, HEAD
+ALLOWED HEADERS       Range
+EXPOSED HEADERS       Content-Length, Content-Range
+MAX AGE               0
+</code></pre>
+<div id="CORS__Textile" />
+<h4>Textile</h4>
+<p>Add the domain of the app, with the protocol, to the <strong>list of allowed origins</strong> in the configuration.</p>
+<pre><code class="language-json">{
+  &quot;API&quot;: {
+    &quot;HTTPHeaders&quot;: {
+      &quot;Access-Control-Allow-Origin&quot;: [
+        &quot;https://diffuse.sh&quot;,
+        &quot;http://127.0.0.1:8080&quot;,
+        &quot;http://127.0.0.1:44999&quot;
+      ]
+    }
+  }
+}
+</code></pre>
+<div id="CORS__WebDAV" />
+<h4>WebDAV</h4>
+<p><strong>Depends on your WebDAV server.</strong><br />
+Example setup for Henrique Dias’s <a href="https://github.com/hacdias/webdav">WebDAV server</a>:</p>
+<pre><code class="language-yaml">cors:
+  enabled: true
+  credentials: true
+
+  allowed_headers:
+    - Authorization
+    - Content-Type
+    - Depth
+    - Range
+  allowed_methods:
+    - GET
+    - HEAD
+    - PROPFIND
+  allowed_hosts:
+    - https://diffuse.sh
+    - http://127.0.0.1:44999
+  exposed_headers:
+    - Content-Length
+    - Content-Type
+</code></pre>
+<div id="UI" />
+<h2>UI</h2>
+<p>There are a few “hidden” features:</p>
+<ul>
+<li><strong>Tracks have a context menu</strong> which can be opened by either right clicking,
+or holding it (ie. a long tap). Use the ALT key whilst right clicking
+on a track to show the alternative track-context menu with more options.</li>
+<li><strong>You can reorder items</strong> in the queue or a playlist with drag-and-drop.
+Select the item you want to move by tapping on it, then tap and hold to move it around.</li>
+<li>You can select multiple tracks using the SHIFT key and then add that selection
+to the queue or a playlist using the context menu.</li>
+<li>Click on the now-playing bit to scroll to that track.</li>
+<li>Double tap on a EQ setting to reset it to its default value.</li>
+</ul>
+<h3>Playlists</h3>
+<p>To add something to a playlist, and create that playlist if it doesn’t exist yet, you open the context menu of a track. To move tracks around in a playlist, first select the track, then drag it.</p>
+<h3>Search</h3>
+<pre><code class="language-shell"># Show me every track where the title, artist or album contains the term 'Parkway' and the term 'Drive'. Terms are separated by spaces (eg. &quot;Killing with a smile&quot; has four terms).
+Parkway Drive
+
+# Show me every track of which the artist's name contains 'park'.
+artist:park*
+
+# Show me every track from Parkway Drive's &quot;Deep Blue&quot; album.
+artist:Parkway Drive album:Deep Blue
+
+# Show me every track from Parkway Drive but not their &quot;Atlas&quot; album.
+artist:Parkway Drive - album:Atlas
+</code></pre>
+<h3>Keyboard</h3>
+<p>The app should be usable with only the keyboard, there are various keyboard shortcuts:</p>
+<pre><code>P - Play / Pause
+S - Toggle Shuffle
+R - Toggle Repeat
+N - Scroll to currently-playing track
+
+Left / Right - Previous / Next
+Up   / Down  - Seek forwards / Seek backwards
+</code></pre>
+<div id="QA" />
+<h2>Q&amp;A</h2>
+<h3>I used version one, where’s my data?</h3>
+<p>There’s a small link, or button if you will, on the “Settings -&gt; Import / Export”
+page that will allow you to import data from version 1 of the app. Note that this
+will need to reflect the authentication/storage method you chose in version 1.</p>
+
+  </main>
+
+
+  <!-- Service worker -->
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("../service-worker.js")
+    }
+  </script>
+
+
+</body>
+</html>
+�R

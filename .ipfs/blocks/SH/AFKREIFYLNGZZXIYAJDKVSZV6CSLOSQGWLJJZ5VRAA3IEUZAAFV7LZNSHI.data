@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+	<meta name="generator" content="Hugo 0.57.2" />
+    
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="./css/main.css" />
+<link rel="icon" type="image/png" href="./images/favicon.png">
+
+<title>IPFS Powers the Distributed Web</title>
+<meta name="description" content="The InterPlanetary File System is a peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open." />
+<meta name="author" content="Protocol Labs" />
+
+<meta property="og:type" content="website" />
+<meta property="og:description" content="The InterPlanetary File System is a peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open." />
+<meta property="og:title" content="IPFS Powers the Distributed Web" />
+<meta property="og:site_name" content="IPFS" />
+<meta property="og:url" content="https://ipfs.io/" />
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ipfs.io/images/ipfs-logo.svg" />
+<meta property="og:image:type" content="image/svg+xml" />
+<meta property="og:image:width" contentlogo="146" />
+<meta property="og:image:height" content="166" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="IPFS" />
+<meta name="twitter:title" content="IPFS Powers the Distributed Web" />
+<meta name="twitter:creator" content="Protocol Labs" />
+<meta name="twitter:description" content="The InterPlanetary File System is a peer-to-peer hypermedia protocol designed to make the web faster, safer, and more open." />
+<meta name="twitter:domain" content="ipfs.io" />
+<meta name="twitter:image:src" content="https://ipfs.io/images/ipfs-logo.svg" />
+<link rel="canonical" href="https://ipfs.io/" />
+<link rel="alternate feed" href="//blog.ipfs.io/index.xml" type="application/rss+xml" title="IPFS Blog" />
+
+<script src="https://camp.ipfs.io/ribbon.min.js" async></script>
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-96910779-14', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  </head>
+
+  <body class="home">
+    <header class="header-has-logo"  id="stars" >
+  <div class="container cf">
+    <h1 class="pull-left">
+      <a href="./" class="logo ipfs-logo transition transition-fadeout">IPFS</a>
+    </h1>
+    <nav role="navigation" class="pull-right top-nav top-nav-dark cf">
+      <input id="menu-toggle" type="checkbox" class="menu-toggle">
+      <label for="menu-toggle" tabindex="0" class="menu-toggle-acc"></label>
+      <ul class="list-unstyled list-inline cf">
+        <li><a href="./#why">About</a></li>
+        <li><a href="./#install">Install</a></li>
+        <li><a href="//docs.ipfs.io/"
+            >Docs</a></li>
+        <li><a href="./team" >Team</a></li>
+        <li><a href="//blog.ipfs.io/"
+            >Blog</a>
+        </li>
+        <li><a href="./help">Help</a></li>
+      </ul>
+    </nav>
+    
+    <div class="hero hero-home">
+      <div class="hero-text">
+        <h2 class="headline-main">IPFS powers the Distributed Web</h2>
+        <span class="divider"></span>
+        <h3 class="subhead-main">A peer-to-peer hypermedia protocol<br /> designed to make the web faster, safer, and
+          more open.</h3>
+        <div class="cta">
+          <a class="button button-primary" href="#install">Get started</a>
+          <a class="button button-outlined" href="#how">How it works</a>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+  <div class="view-more">
+    <label>View more</label><a href="#why"></a>
+  </div>
+  <a class="button" id="toggle-animation">Disable
+    animation</a>
+</header>
+
+    <div class="container">
+      <section id="why">
+        <div class="content-center mb2">
+          <h2>The web of tomorrow needs IPFS today</h2>
+          <h5>IPFS aims to surpass HTTP in order to build a better web for all of us.</h5>
+        </div>
+        <div class="grid-flex-container">
+          <div class="grid-flex-cell-1of2">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-http.svg" />
+            </div>
+            <h5 class="content-center">
+              <strong>Today's web is inefficient and expensive</strong>
+            </h5>
+            <p>
+              HTTP downloads files from one computer at a time instead of
+              getting pieces from multiple computers simultaneously. Peer-to-peer IPFS saves big on bandwidth &mdash;
+              <a
+                href="http://math.oregonstate.edu/~kovchegy/web/papers/p2p-vdn.pdf"
+                >up to 60% for video</a> &mdash; making it possible to efficiently distribute high volumes of data without duplication.
+            </p>
+          </div>
+          <div class="grid-flex-cell-1of2">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-history.svg" />
+            </div>
+            <h5 class="content-center">
+              <strong>Today's web can't preserve humanity's history</strong>
+            </h5>
+            <p>
+              <a
+                href="https://blogs.loc.gov/thesignal/2011/11/the-average-lifespan-of-a-webpage/"
+                >The average lifespan of a web page is 100 days</a> before it's
+                gone forever. It's not good enough for the primary medium of our
+                era to be this fragile. IPFS keeps every version of your files
+                and makes it simple to set up resilient networks for mirroring data.
+            </p>
+          </div>
+          <div class="grid-flex-cell-1of2">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-centralized.svg" />
+            </div>
+            <h5 class="content-center">
+              <strong>Today's web is centralized, limiting opportunity</strong>
+            </h5>
+            <p>
+              The Internet has turbocharged innovation by being one of the great
+              equalizers in human history &mdash; but increasing consolidation
+              of control threatens that progress. IPFS stays true to the
+              original vision of an open, flat web by delivering technology to
+              make that vision a reality.
+            </p>
+          </div>
+          <div class="grid-flex-cell-1of2">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-network.svg" />
+            </div>
+            <h5 class="content-center">
+              <strong>Today's web is addicted to the backbone</strong>
+            </h5>
+            <p>
+              IPFS powers the creation of diversely resilient networks that
+              enable persistent availability &mdash; with or without Internet
+              backbone connectivity. This means better connectivity for the
+              developing world, during natural disasters, or just when you're on
+               flaky coffee shop wi-fi.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+      <section id="install">
+  <div class="container">
+
+    <h2 class="content-center">Install IPFS</h2>
+    <h5 class="content-center" style="margin-bottom: 60px;">Join the future of the web right now &mdash; just choose the option that's right for you.</h5>
+
+    <h3 class="content-center">Store and share files</h3>
+    <div class="grid-flex-container">
+
+      <div class="grid-flex-cell-1of1">
+          <div class="install-item">
+            <div class="install-item-image">
+              <a href="https://github.com/ipfs-shipyard/ipfs-desktop" target="_blank" rel="noopener"><img src="./images/ipfs-desktop-hex.png" /></a>
+            </div>
+            <div class="install-description">
+              <a href="https://github.com/ipfs-shipyard/ipfs-desktop" target="_blank" rel="noopener"><h4>IPFS Desktop</h4></a>
+              <h5>IPFS for everyone</h5>
+              <p>
+                The desktop app offers menubar/tray shortcuts and an easy interface for adding, pinning, and sharing files &mdash; plus a full IPFS node ready for heavy-duty hosting and development too. A great choice for devs and non-devs alike.
+              </p>
+              <div><a class="button button-outlined" href="https://github.com/ipfs-shipyard/ipfs-desktop" target="_blank" rel="noopener">Get IPFS Desktop</a></div>
+            </div>
+          </div>
+      </div>
+
+      <div class="grid-flex-cell-1of1">
+          <div class="install-item">
+            <div class="install-item-image">
+              <a href="https://docs.ipfs.io/how-to/command-line-quick-start" target="_blank" rel="noopener"><img src="./images/command-line-hex.png" /></a>
+            </div>
+            <div class="install-description">
+              <a href="https://docs.ipfs.io/how-to/command-line-quick-start" target="_blank" rel="noopener"><h4>Command-line install</h4></a>
+              <h5>All IPFS, no frills</h5>
+              <p>
+                Just want IPFS in your terminal? Get step-by-step instructions for getting up
+                and running on the command line using the Go implementation of IPFS. Includes directions for Windows, macOS, and Linux.
+              </p>
+              <div><a class="button button-outlined" href="https://docs.ipfs.io/how-to/command-line-quick-start" target="_blank" rel="noopener">Get the CLI</a></div>
+            </div>
+          </div>
+      </div>
+
+      <div class="grid-flex-cell-1of2">
+          <div class="install-item">
+            <div class="install-item-image">
+              <a href="https://github.com/ipfs-shipyard/ipfs-companion" target="_blank" rel="noopener"><img src="./images/ipfs-companion-hex.png" /></a>
+            </div>
+            <div class="install-description">
+              <a href="https://github.com/ipfs-shipyard/ipfs-companion" target="_blank" rel="noopener"><h4>IPFS Companion</h4></a>
+              <h5>Add IPFS to your browser</h5>
+              <p>
+                Get ipfs:// URL support and much more in your web browser with this extension.
+              </p>
+              <div><a class="button button-outlined" href="https://github.com/ipfs-shipyard/ipfs-companion" target="_blank" rel="noopener">Get Companion</a></div>
+            </div>
+          </div>
+      </div>
+
+      <div class="grid-flex-cell-1of2">
+          <div class="install-item">
+            <div class="install-item-image">
+              <a href="https://cluster.ipfs.io/" target="_blank" rel="noopener"><img src="./images/ipfs-cluster.png" /></a>
+            </div>
+            <div class="install-description">
+              <a href="https://cluster.ipfs.io/" target="_blank" rel="noopener"><h4>IPFS Cluster</h4></a>
+              <h5>For servers or big data</h5>
+              <p>
+                Automatically allocate, replicate, and track your data as pinsets across multiple IPFS nodes.
+              </p>
+              <div><a class="button button-outlined" href="https://cluster.ipfs.io/" target="_blank" rel="noopener">Get Cluster</a></div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <h3 class="content-center" style="margin-top: 70px;">Build with IPFS</h3>
+    <div class="grid-flex-container">
+
+      <div class="grid-flex-cell-1of2">
+          <div class="install-item">
+            <div class="install-item-image">
+              <a href="https://github.com/ipfs/go-ipfs" target="_blank" rel="noopener"><img src="./images/go-ipfs-hex-logo.png" /></a>
+            </div>
+            <div class="install-description">
+              <a href="https://github.com/ipfs/go-ipfs" target="_blank" rel="noopener"><h4>Go implementation</h4></a>
+              <p>
+                The original IPFS, with core implementation, daemon server, CLI tooling, and more.
+              </p>
+              <div><a class="button button-outlined" href="https://github.com/ipfs/go-ipfs" target="_blank" rel="noopener">Get go-ipfs</a></div>
+            </div>
+          </div>
+      </div>
+
+      <div class="grid-flex-cell-1of2">
+          <div class="install-item">
+            <div class="install-item-image">
+              <a href="https://js.ipfs.io" target="_blank" rel="noopener"><img src="./images/js-ipfs-logo.png" /></a>
+            </div>
+            <div class="install-description">
+              <a href="https://js.ipfs.io" target="_blank" rel="noopener"><h4>JS implementation</h4></a>
+              <p>
+                Written entirely in JavaScript for a world of possibilities in browser implementations.
+              </p>
+              <div><a class="button button-outlined" href="https://js.ipfs.io" target="_blank" rel="noopener">Get js-ipfs</a></div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+    <div class="container">
+      <section id="how">
+        <div class="content-center mb2">
+          <h2>Here's how IPFS works</h2>
+          <h5>Take a look at what happens when you add a file to IPFS.</h5>
+        </div>
+        <div class="how-item">
+          <div class="illustration">
+            <img src="./images/ipfs-illustrations-how-1.svg" />
+          </div>
+          <div class="how-description">
+            <h5>
+              Your file, and all of the <strong>blocks within it</strong>, is
+              given a <strong>unique fingerprint</strong> called a
+              <strong>cryptographic hash</strong>.
+            </h5>
+          </div>
+        </div>
+        <div class="how-item">
+          <div class="illustration">
+            <img src="./images/ipfs-illustrations-how-2.svg" />
+          </div>
+          <div class="how-description">
+            <h5>
+              IPFS <strong>removes duplications</strong> across the network.
+            </h5>
+          </div>
+        </div>
+        <div class="how-item">
+          <div class="illustration">
+            <img src="./images/ipfs-illustrations-how-3.svg" />
+          </div>
+          <div class="how-description">
+            <h5>
+              Each <strong>network node</strong> stores only content it is
+              interested in, plus some indexing information that helps figure out
+              which node is storing what.
+            </h5>
+          </div>
+        </div>
+        <div class="how-item">
+          <div class="illustration">
+            <img src="./images/ipfs-illustrations-how-4.svg" />
+          </div>
+          <div class="how-description">
+            <h5>
+              When you <strong>look up a file</strong> to view or download, you're asking the network
+              to find the nodes that are storing the content behind that file's hash.
+            </h5>
+          </div>
+        </div>
+        <div class="how-item">
+          <div class="illustration">
+            <img src="./images/ipfs-illustrations-how-5.svg" />
+          </div>
+          <div class="how-description">
+            <h5>
+              You don't need to remember the hash, though &mdash; every file can be found by
+              <strong>human-readable names</strong> using a decentralized naming
+              system called <strong>IPNS</strong>.
+            </h5>
+          </div>
+        </div>
+        <div class="content-center mb2" style="padding-top: 30px;">
+          <h3>Take a closer look</h3>
+        </div>
+
+        <div class="grid-flex-container mb2">
+          <div class="grid-flex-cell-1of3 content-center">
+            <h5>Want to dig in?</h5>
+            <a class="button button-primary" href="https://docs.ipfs.io"
+              >Check out the docs</a
+            >
+          </div>
+          <div class="grid-flex-cell-1of3 content-center">
+            <h5>Hands-on learner?</h5>
+            <a
+              class="button button-primary"
+              href="https://proto.school/course/ipfs"
+              >Explore ProtoSchool</a
+            >
+          </div>
+          <div class="grid-flex-cell-1of3 content-center">
+            <h5>Curious where it all began?</h5>
+            <a
+              class="button button-primary"
+              href="https://github.com/ipfs/papers/raw/master/ipfs-cap2pfs/ipfs-p2p-file-system.pdf"
+              >Read the whitepaper</a
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section id="uses" class="content-center">
+        <div class="content-center mb2">
+          <h2>IPFS can help here and now</h2>
+          <h5>No matter what you do with the web, IPFS helps make it better today.</h5>
+        </div>
+        <div class="grid-flex-container">
+          <div class="grid-flex-cell">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-archivists.svg" />
+            </div>
+            <h5>Archivists</h5>
+            <p>
+              IPFS provides deduplication, high performance, and clustered
+              persistence &mdash; empowering you to store the world's information
+              for future generations.
+            </p>
+          </div>
+          <div class="grid-flex-cell service-providers">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-service.svg" />
+            </div>
+            <h5>Service providers</h5>
+            <p>
+             Providing large amounts of data to users? IPFS
+             offers secure, peer-to-peer content delivery &mdash; an approach that could save you millions in bandwidth costs.
+            </p>
+          </div>
+          <div class="grid-flex-cell">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-data.svg" />
+            </div>
+            <h5>Researchers</h5>
+            <p>
+              If you're working with or distributing large data sets,
+              IPFS can help provide fast performance and decentralized archiving.
+            </p>
+          </div>
+        </div>
+        <div class="grid-flex-container">
+          <div class="grid-flex-cell">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-developing.svg" />
+            </div>
+            <h5>Developing world</h5>
+            <p>
+              High-latency networks are a big barrier for those with poor internet infrastructure. IPFS provides resilient access to data independent of
+              latency or backbone connectivity.
+            </p>
+          </div>
+          <div class="grid-flex-cell">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-blockchains.svg" />
+            </div>
+            <h5>Blockchains</h5>
+            <p>
+              With IPFS, you can address large amounts of data and put immutable,
+              permanent links in transactions &mdash; timestamping
+              and securing content without having to put the data itself on-chain.
+            </p>
+          </div>
+          <div class="grid-flex-cell">
+            <div class="illustration">
+              <img src="./images/ipfs-illustration-creators.svg" />
+            </div>
+            <h5>Content creators</h5>
+            <p>
+              IPFS brings the freedom and independent spirit of the web in full
+              force &mdash; and can help you deliver your content at a much lower cost.
+            </p>
+          </div>
+        </div>
+
+        <div class="content-center mb2" style="padding-top: 30px;">
+          <h3>Who's already using IPFS?</h3>
+          <h5>Companies and organizations worldwide are already building amazing things on IPFS.</h5>
+          <a class="button button-primary" href="./images/ipfs-applications-diagram.png" target="_blank" rel="noopener noreferrer">See the list</a>
+        </div>
+      </section>
+
+      <div class="content-wrapper">
+        <section id="latest">
+  <h2 class="content-center mb2">News and more</h2>
+  <div class="grid-flex-container">
+    <div class="grid-flex-cell">
+      <h5>IPFS blog</h5>
+      <ol class="latest-list list-unstyled" id="latest-list">
+        
+          
+          
+            <li><span class="date">21 December 2020</span> <a href="https://blog.ipfs.io/2020-12-21-ipfs-in-2021/">IPFS in 2021 - Thank You for Your Proposals!</a></li>
+          
+            <li><span class="date">16 December 2020</span> <a href="https://blog.ipfs.io/weekly-118/">Welcome to IPFS Weekly 118</a></li>
+          
+            <li><span class="date">09 December 2020</span> <a href="https://blog.ipfs.io/weekly-117/">Welcome to IPFS Weekly 117</a></li>
+          
+            <li><span class="date">02 December 2020</span> <a href="https://blog.ipfs.io/weekly-116/">Welcome to IPFS Weekly 116</a></li>
+          
+      </ol>
+    </div>
+    <div class="grid-flex-cell">
+      <h5>In the media</h5>
+      <ol class="latest-list list-unstyled">
+        <li><span class="publication">TechCrunch</span> <a href="https://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/">Why The Internet Needs IPFS Before It’s Too Late</a></li>
+        <li><span class="publication">Motherboard</span> <a href="https://motherboard.vice.com/en_us/article/78xgaq/the-interplanetary-file-system-wants-to-create-a-permanent-web">IPFS Wants to Create a Permanent Web</a></li>
+        <li><span class="publication">MakeUseOf</span> <a href="http://www.makeuseof.com/tag/goodbye-http-faster-safer-decentralized-internet-ipfs/">Faster, Safer, Decentralized Internet With IPFS</a></li>
+      </ol>
+    </div>
+    <div class="grid-flex-cell grid-flex-cell-1of2">
+      <h5>Videos</h5>
+      <ul class="latest-videos list-unstyled cf">
+        <li id="modal-nofooter">
+          <a class="popup-youtube video-thumb" href="https://www.youtube.com/watch?v=zE_WSLbqqvo">
+            <img src="./images/video-still-whyipfs.jpg" />
+          </a>
+          <a class="popup-youtube" href="https://www.youtube.com/watch?v=zE_WSLbqqvo">Why IPFS?</a>
+        </li>
+        <li>
+          <a class="video-thumb" href="https://www.youtube.com/playlist?list=PLuhRWgmPaHtTwwGv30nKdhr3GiIAnhbyE" target="_blank">
+            <img src="./images/video-still-buildingonipfs.jpg" />
+          </a>
+          <a href="https://www.youtube.com/playlist?list=PLuhRWgmPaHtTwwGv30nKdhr3GiIAnhbyE" target="_blank">Developers Speak: Building on IPFS</a>
+        </li>
+      </ul>
+      <a href="https://www.youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew" class="button button-outlined" target="_blank" rel="noopener noreferrer">All videos</a>
+    </div>
+
+    <div class="content-center mb2" style="padding-top: 30px;">
+      <h3>Stay on top of the latest</h3>
+      <h5>Sign up for the IPFS Weekly newsletter to get project updates, community news, event details, and more. In your inbox, each Tuesday.</h5>
+      <a class="button button-primary" href="https://ipfs.us4.list-manage.com/subscribe?u=25473244c7d18b897f5a1ff6b&id=cad54b2230" target="_blank" rel="noopener noreferrer">Subscribe</a>
+    </div>
+
+  </div>
+</section>
+
+      </div>
+    </div>
+
+    <footer role="contentinfo" class="footer-primary">
+  <div class="container cf">
+    <div class="cf">
+      <div class="sitemap-menu grid-flex-container">
+        <div class="grid-flex-cell">
+          <ul class="sitemap unstyled">
+            <li class="sitemap-head">Protocol Labs</li>
+            <li><a href="https://protocol.ai">About</a></li>
+            <li><a href="https://protocol.ai/join">Join</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap unstyled">
+            <li class="sitemap-head">IPFS</li>
+            <li><a href="./#install">Install</a></li>
+            <li><a href="https://github.com/ipfs/ipfs">GitHub</a></li>
+            <li><a href="https://github.com/ipfs/community/blob/master/code-of-conduct.md">Code of Conduct</a></li>
+            <li><a href="https://docs.ipfs.io/">Docs</a></li>
+            <li><a href="https://docs.ipfs.io/community/">Community</a></li>
+            <li><a href="./help">Help</a></li>
+            <li><a href="https://awesome.ipfs.io/">Awesome IPFS</a></li>
+            <li><a href="https://cluster.ipfs.io/">IPFS Cluster</a></li>
+            <li><a href="./team">Team</a></li>
+            <li><a href="./media">Media</a></li>
+            <li><a href="//blog.ipfs.io/">Blog</a></li>
+            <li><a href="./legal/">Legal</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap unstyled">
+            <li class="sitemap-head">ProtoSchool</li>
+            <li><a href="https://proto.school/course/ipfs">Tutorials</a></li>
+            <li><a href="https://proto.school/events">Events</a></li>
+          </ul>
+        </div>
+        <div class="grid-flex-cell">
+          <ul class="sitemap unstyled">
+            <li class="sitemap-head">Filecoin</li>
+            <li><a href="https://filecoin.io/">About</a></li>
+            <li><a href="https://filecoin.io/faqs/">FAQ</a></li>
+          </ul>
+            <ul class="sitemap unstyled">
+              <li class="sitemap-head" style="padding-top: 30px;">Other Projects</li>
+              <li><a href="https://libp2p.io/">libp2p</a></li>
+              <li><a href="https://ipld.io/">IPLD</a></li>
+              <li><a href="https://drand.love/">Drand</a></li>
+              <li><a href="https://multiformats.io/">Multiformats</a></li>
+              <li><a href="http://testground.ai/">Testground</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="share-links">
+        <ul class="share unstyled">
+          
+            <li><a class="Twitter" href="https://twitter.com/ipfs">Twitter</a></li>
+          
+            <li><a class="Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://ipfs.io">Facebook</a></li>
+          
+            <li><a class="YouTube" href="https://www.youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew">YouTube</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <p class="footer-copyright center">© Protocol Labs | Except as <a href="https://protocol.ai/legal/">noted</a>, content licensed <a href="https://creativecommons.org/licenses/by/3.0/">CC-BY 3.0.</a></p>
+  </div>
+</footer>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/header-and-latest.js"></script>
+  </body>
+</html>
