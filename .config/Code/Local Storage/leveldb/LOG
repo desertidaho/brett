@@ -1,3 +1,3 @@
-2021/02/15-11:50:41.556 231 Reusing MANIFEST /home/brett/.config/Code/Local Storage/leveldb/MANIFEST-000001
-2021/02/15-11:50:41.557 231 Recovering log #3
-2021/02/15-11:50:41.557 231 Reusing old log /home/brett/.config/Code/Local Storage/leveldb/000003.log 
+2021/02/15-12:05:17.941 a4e Reusing MANIFEST /home/brett/.config/Code/Local Storage/leveldb/MANIFEST-000001
+2021/02/15-12:05:17.943 a4e Recovering log #3
+2021/02/15-12:05:17.943 a4e Reusing old log /home/brett/.config/Code/Local Storage/leveldb/000003.log 

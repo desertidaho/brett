@@ -2,6 +2,7 @@
     "telemetry.machineId": "6a7a8f4b89330000ffec6023afb2686a7308fd2ec719fa36de4cbe675d27e802",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/brett/di",
             "file:///home/brett/Foundation-Sites-6.6.3-CSS",
             "file:///home/brett/ipfs-desktop",
             "file:///home/brett/graphql1",
@@ -46,7 +47,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -55,7 +57,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/brett/Foundation-Sites-6.6.3-CSS",
+                                        "fsPath": "/home/brett/di",
+                                        "external": "file:///home/brett/di",
+                                        "path": "/home/brett/di",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/di"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/brett/Foundation-Sites-6.6.3-CSS",
                                         "path": "/home/brett/Foundation-Sites-6.6.3-CSS",
                                         "scheme": "file"
@@ -469,8 +482,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -655,7 +667,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -972,7 +985,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1535,8 +1549,7 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/brett/Foundation-Sites-6.6.3-CSS",
-            "backupPath": "/home/brett/.config/Code/Backups/97db0f72370d2601a2c32784bb732541",
+            "backupPath": "/home/brett/.config/Code/Backups/1613415845501",
             "uiState": {
                 "mode": 0,
                 "x": 0,
