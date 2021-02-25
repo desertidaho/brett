@@ -2,14 +2,15 @@
     "telemetry.machineId": "6a7a8f4b89330000ffec6023afb2686a7308fd2ec719fa36de4cbe675d27e802",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/brett/blockchain",
             "file:///home/brett/di",
+            "file:///home/brett/newdesertidaho",
             "file:///home/brett/Foundation-Sites-6.6.3-CSS",
             "file:///home/brett/ipfs-desktop",
             "file:///home/brett/graphql1",
             "file:///home/brett",
             "file:///home/brett/Music-Is-Fun",
-            "file:///home/brett/crypto",
-            "file:///home/brett/newdesertidaho"
+            "file:///home/brett/crypto"
         ],
         "files2": []
     },
@@ -56,13 +57,35 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/brett/di",
+                                        "fsPath": "/home/brett/blockchain",
+                                        "external": "file:///home/brett/blockchain",
+                                        "path": "/home/brett/blockchain",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/blockchain"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/brett/di",
                                         "path": "/home/brett/di",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/di"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brett/newdesertidaho",
+                                        "path": "/home/brett/newdesertidaho",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/newdesertidaho"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -129,17 +152,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/crypto"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/brett/newdesertidaho",
-                                        "path": "/home/brett/newdesertidaho",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/newdesertidaho"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -481,7 +493,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -656,8 +669,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -983,8 +995,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1547,8 +1558,8 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/brett/di",
-            "backupPath": "/home/brett/.config/Code/Backups/41e6b1a38f75ac40075ef31a41421ca6",
+            "folder": "file:///home/brett/blockchain",
+            "backupPath": "/home/brett/.config/Code/Backups/f5e7cc9cd74e6b7b8c504814447b3fa3",
             "uiState": {
                 "mode": 0,
                 "x": 0,

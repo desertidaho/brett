@@ -1,7 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "types-registry": "^0.1.528"
+    "types-registry": "^0.1.529"
   },
   "devDependencies": {
     "@types/ansi-styles": "^3.2.1",
@@ -48,6 +48,7 @@
     "@types/core-js": "^2.5.4",
     "@types/crc": "^3.4.0",
     "@types/cross-spawn": "^6.0.2",
+    "@types/crypto-js": "^4.0.1",
     "@types/css-tree": "^1.0.5",
     "@types/csso": "^3.5.1",
     "@types/dashdash": "^1.14.0",
