@@ -63,10 +63,10 @@ class CryptoBlockchain {
   }
 }
 
-let smashingCoin = new CryptoBlockchain();
+let helicoin = new CryptoBlockchain();
 
 console.log("IS THIS WORKING? YES!");
-smashingCoin.addNewBlock(
+helicoin.addNewBlock(
   new CryptoBlock(1, "01/06/2020", {
     sender: "Lorne Malvo",
     recipient: "Robert Jordan",
@@ -74,7 +74,7 @@ smashingCoin.addNewBlock(
   })
 );
 
-smashingCoin.addNewBlock(
+helicoin.addNewBlock(
   new CryptoBlock(2, "01/07/2020", {
     sender: "Courtney Sant",
     recipient: "Brett Wilcox",
@@ -82,4 +82,4 @@ smashingCoin.addNewBlock(
   })
 );
 
-console.log(JSON.stringify(smashingCoin, null, 4));
+console.log(JSON.stringify(helicoin, null, 4));
