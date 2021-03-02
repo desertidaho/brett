@@ -2,8 +2,11 @@
     "telemetry.machineId": "6a7a8f4b89330000ffec6023afb2686a7308fd2ec719fa36de4cbe675d27e802",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/brett/blockchain",
+            "file:///home/brett/newMathematicsNotebooks",
+            "file:///home/brett/mathematics-notebooks",
             "file:///home/brett/di",
+            "file:///home/brett/hf",
+            "file:///home/brett/blockchain",
             "file:///home/brett/newdesertidaho",
             "file:///home/brett/Foundation-Sites-6.6.3-CSS",
             "file:///home/brett/ipfs-desktop",
@@ -57,13 +60,24 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/brett/blockchain",
-                                        "external": "file:///home/brett/blockchain",
-                                        "path": "/home/brett/blockchain",
+                                        "fsPath": "/home/brett/newMathematicsNotebooks",
+                                        "external": "file:///home/brett/newMathematicsNotebooks",
+                                        "path": "/home/brett/newMathematicsNotebooks",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/blockchain"
+                                    "label": "~/newMathematicsNotebooks"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brett/mathematics-notebooks",
+                                        "path": "/home/brett/mathematics-notebooks",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/mathematics-notebooks"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -75,6 +89,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/di"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brett/hf",
+                                        "path": "/home/brett/hf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/hf"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/brett/blockchain",
+                                        "path": "/home/brett/blockchain",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/blockchain"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -130,28 +166,6 @@
                                     },
                                     "enabled": true,
                                     "label": "/home/brett"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/brett/Music-Is-Fun",
-                                        "path": "/home/brett/Music-Is-Fun",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Music-Is-Fun"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/brett/crypto",
-                                        "path": "/home/brett/crypto",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/crypto"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -493,8 +507,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -995,7 +1008,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1558,8 +1572,8 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/brett/blockchain",
-            "backupPath": "/home/brett/.config/Code/Backups/f5e7cc9cd74e6b7b8c504814447b3fa3",
+            "folder": "file:///home/brett/newMathematicsNotebooks",
+            "backupPath": "/home/brett/.config/Code/Backups/dc7a867075483aa3cfc2a4d939a376bc",
             "uiState": {
                 "mode": 0,
                 "x": 0,
@@ -1568,7 +1582,30 @@
                 "height": 1000
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///home/brett/mathematics-notebooks",
+                "backupPath": "/home/brett/.config/Code/Backups/cce1e66f3e043642aa63351e563c6457",
+                "uiState": {
+                    "mode": 0,
+                    "x": 0,
+                    "y": 40,
+                    "width": 1920,
+                    "height": 1000
+                }
+            },
+            {
+                "folder": "file:///home/brett/newMathematicsNotebooks",
+                "backupPath": "/home/brett/.config/Code/Backups/dc7a867075483aa3cfc2a4d939a376bc",
+                "uiState": {
+                    "mode": 0,
+                    "x": 0,
+                    "y": 40,
+                    "width": 1920,
+                    "height": 1000
+                }
+            }
+        ]
     },
     "pickerWorkingDir": "/home/brett"
 }

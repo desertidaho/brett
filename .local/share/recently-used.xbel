@@ -23,12 +23,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/brett/newdesertidaho/assets/img/transparent-sun.png" added="2021-02-14T17:11:08Z" modified="2021-02-14T17:11:08Z" visited="2021-02-14T17:11:08.673867Z">
+  <bookmark href="file:///home/brett/newdesertidaho/assets/img/transparent-sun.png" added="2021-02-14T17:11:08Z" modified="2021-02-14T17:11:08Z" visited="2021-02-14T17:11:08Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="image/png"/>
         <bookmark:applications>
           <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2021-02-14T17:11:08Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/brett/newMathematicsNotebooks" added="2021-03-02T19:17:20Z" modified="2021-03-02T19:17:20Z" visited="2021-03-02T19:17:20.520980Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2021-03-02T19:17:20Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

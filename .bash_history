@@ -91,3 +91,23 @@ git branch -M main
 git remote add origin https://github.com/desertidaho/di.git
 git branch -M main
 git push -u origin main
+npm install --save crypto-js
+node blockchain.js
+git init
+git remote add origin https://github.com/desertidaho/simpleblockchain.git
+git branch -M main
+git push -u origin main
+clear
+node blockchain.js
+git push origin HEAD: master
+git commit -m "initial commit"
+git push origin master
+npm init
+clear
+git init
+cd di
+code .
+git clone https://github.com/desertidaho/mathematics-notebooks.git
+cd mathematics-notebooks/
+git init
+code .

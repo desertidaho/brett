@@ -4,5 +4,6 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "liveServer.settings.donotShowInfoMsg": true,
     "git.confirmSync": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "liveServer.settings.donotVerifyTags": true
 }

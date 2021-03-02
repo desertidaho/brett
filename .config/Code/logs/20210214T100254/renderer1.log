@@ -1,6 +1,0 @@
-[2021-02-14 10:03:00.449] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/brett/ipfs-desktop/.vscode'
-[2021-02-14 10:03:17.927] [renderer1] [error] Model is disposed!: Error: Model is disposed!
-    at B._assertNotDisposed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:573:90)
-    at B.getLineCount (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:575:5377)
-    at S.put (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:626:8163)
-    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:661:1580
