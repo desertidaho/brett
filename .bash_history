@@ -111,3 +111,28 @@ git clone https://github.com/desertidaho/mathematics-notebooks.git
 cd mathematics-notebooks/
 git init
 code .
+cd mathematics-notebooks/
+code .
+cd ..
+ls
+cd newMathematicsNotebooks/
+git init
+git remote add origin https://github.com/desertidaho/newMathematicsNotebooks.git
+ls
+clear
+code .
+cd newMathematicsNotebooks/
+code .
+cd newMathematicsNotebooks/
+code .
+git clone https://github.com/desertidaho/Music-Is-Fun.git
+ls
+cd Music-Is-Fun/
+code .
+clear
+cd ..
+ls
+git clone https://github.com/desertidaho/SlapGame.git
+cd SlapGame/
+git init
+code .

@@ -1,0 +1,224 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/brett/crypto
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :assets/css/style.css
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s a38e117bb09bdcd781fd6ba00ef42ed37469c8de
+> git show --textconv :app/models/crypto.js
+> git ls-files --stage -- /home/brett/crypto/app/models/crypto.js
+> git cat-file -s b6d2e75ee47bb8b9941124542e68d91bdc5094c0
+> git show --textconv :app/components/news/newsService.js
+> git ls-files --stage -- /home/brett/crypto/app/components/news/newsService.js
+> git cat-file -s 9dc1bf39537226ac072643de2ea5bc11a9015f25
+> git show --textconv :app/models/news.js
+> git ls-files --stage -- /home/brett/crypto/app/models/news.js
+> git cat-file -s ff66a97e9c0bba215514291567de6c174fbd5752
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
+> git show --textconv :assets/css/style.css
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s a38e117bb09bdcd781fd6ba00ef42ed37469c8de
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :app/models/hashrate.js
+> git ls-files --stage -- /home/brett/crypto/app/models/hashrate.js
+> git cat-file -s d5d3864556ba75c114b4caa1b44fe772fcc57b54
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
+> git show --textconv :app/models/cypher.js
+> git ls-files --stage -- /home/brett/crypto/app/models/cypher.js
+> git cat-file -s 9552950da985d56f94d86d4b7a0201079de32ddb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :app/models/crypto.js
+> git ls-files --stage -- /home/brett/crypto/app/models/crypto.js
+> git cat-file -s b6d2e75ee47bb8b9941124542e68d91bdc5094c0
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
+> git show --textconv :app/models/marketCap.js
+> git ls-files --stage -- /home/brett/crypto/app/models/marketCap.js
+> git cat-file -s 20b21e972ec0946f708461fbe2b2f8a86f1a2c19
+> git show --textconv :app/components/crypto/cryptoService.js
+> git ls-files --stage -- /home/brett/crypto/app/components/crypto/cryptoService.js
+> git cat-file -s b4c84ce90c0f097eeb55193284c82866d18f31a2
+> git show --textconv :app/models/marketCap.js
+> git ls-files --stage -- /home/brett/crypto/app/models/marketCap.js
+> git cat-file -s 20b21e972ec0946f708461fbe2b2f8a86f1a2c19
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :app/components/crypto/cryptoService.js
+> git ls-files --stage -- /home/brett/crypto/app/components/crypto/cryptoService.js
+> git cat-file -s b4c84ce90c0f097eeb55193284c82866d18f31a2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :app/models/marketCap.js
+> git ls-files --stage -- /home/brett/crypto/app/models/marketCap.js
+> git cat-file -s 20b21e972ec0946f708461fbe2b2f8a86f1a2c19
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
+> git show --textconv :app/models/cypher.js
+> git ls-files --stage -- /home/brett/crypto/app/models/cypher.js
+> git cat-file -s 9552950da985d56f94d86d4b7a0201079de32ddb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :app/models/marketCap.js
+> git ls-files --stage -- /home/brett/crypto/app/models/marketCap.js
+> git cat-file -s 20b21e972ec0946f708461fbe2b2f8a86f1a2c19
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :app/models/hashrate.js
+> git ls-files --stage -- /home/brett/crypto/app/models/hashrate.js
+> git cat-file -s d5d3864556ba75c114b4caa1b44fe772fcc57b54
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/brett/crypto/app/models/hashrate.js
+> git cat-file -s 213fe225fdb30ce5e5dd0dc9aba6bd1d2cbb1a71
+> git show --textconv :app/models/hashrate.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/brett/crypto/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+> git ls-files --stage -- /home/brett/crypto/app/models/hashrate.js
+> git cat-file -s 213fe225fdb30ce5e5dd0dc9aba6bd1d2cbb1a71
+> git show --textconv :app/models/hashrate.js
+From https://github.com/desertidaho/crypto
+ * branch            master     -> FETCH_HEAD
+> git push origin master:master
+> git ls-files --stage -- /home/brett/crypto/app/models/hashrate.js
+> git cat-file -s 213fe225fdb30ce5e5dd0dc9aba6bd1d2cbb1a71
+> git show --textconv :app/models/hashrate.js
+To https://github.com/desertidaho/crypto.git
+   5959ef5..583263e  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/brett/crypto/app/models/hashrate.js
+> git show --textconv :assets/css/style.css
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s 0522516aaffae427b6ff07a56a43137768832681
