@@ -27,3 +27,6 @@
 [2021-03-05 09:26:14.027] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
 [2021-03-05 09:26:14.027] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
 [2021-03-05 09:26:14.700] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 253
+[2021-03-05 09:27:07.172] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 253
+[2021-03-05 09:27:12.348] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-03-05 09:27:17.395] [exthost] [info] exiting with code 0

@@ -48,7 +48,7 @@
                         "label": "Open Wor&&kspace..."
                     },
                     {
-                        "id": "submenuitem.24",
+                        "id": "submenuitem.25",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
@@ -223,7 +223,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.23",
+                        "id": "submenuitem.24",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -465,7 +465,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.15",
+                        "id": "submenuitem.16",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -547,7 +547,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.21",
+                        "id": "submenuitem.22",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -639,6 +639,10 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "workbench.actions.view.problems",
+                        "label": "&&Problems"
+                    },
+                    {
                         "id": "workbench.action.output.toggleOutput",
                         "label": "&&Output"
                     },
@@ -649,10 +653,6 @@
                     {
                         "id": "workbench.action.terminal.toggleTerminal",
                         "label": "&&Terminal"
-                    },
-                    {
-                        "id": "workbench.actions.view.problems",
-                        "label": "&&Problems"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -686,8 +686,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -696,14 +695,13 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.26",
+                        "id": "submenuitem.27",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -752,7 +750,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.28",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -959,7 +957,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.22",
+                        "id": "submenuitem.23",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1014,8 +1012,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1072,6 +1069,10 @@
                     {
                         "id": "workbench.action.showWelcomePage",
                         "label": "&&Welcome"
+                    },
+                    {
+                        "id": "workbench.action.showGettingStarted",
+                        "label": "Getting Started"
                     },
                     {
                         "id": "workbench.action.showInteractivePlayground",
@@ -1359,10 +1360,6 @@
                 "label": "Ctrl+Shift+E",
                 "userSettingsLabel": "ctrl+shift+e"
             },
-            "workbench.view.search": {
-                "label": "Ctrl+Shift+F",
-                "userSettingsLabel": "ctrl+shift+f"
-            },
             "workbench.view.scm": {
                 "label": "Ctrl+Shift+G",
                 "userSettingsLabel": "ctrl+shift+g"
@@ -1370,6 +1367,10 @@
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
+            },
+            "workbench.actions.view.problems": {
+                "label": "Ctrl+Shift+M",
+                "userSettingsLabel": "ctrl+shift+m"
             },
             "workbench.action.output.toggleOutput": {
                 "label": "Ctrl+K Ctrl+H",
@@ -1383,10 +1384,6 @@
             "workbench.action.terminal.toggleTerminal": {
                 "label": "Ctrl+`",
                 "userSettingsLabel": "ctrl+`"
-            },
-            "workbench.actions.view.problems": {
-                "label": "Ctrl+Shift+M",
-                "userSettingsLabel": "ctrl+shift+m"
             },
             "editor.action.toggleWordWrap": {
                 "label": "Alt+Z",
@@ -1581,7 +1578,7 @@
             "folder": "file:///home/brett/newbwinfo",
             "backupPath": "/home/brett/.config/Code/Backups/ade78c1cc81989628b1876e02697a5b0",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 0,
                 "y": 40,
                 "width": 1920,
