@@ -27,3 +27,55 @@ Open repository: /home/brett
 > git config --get commit.template
 > git check-ignore -v -z --stdin
 > git add -A -- .
+warning: adding embedded git repository: SlapGame
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> SlapGame
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached SlapGame
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: newdi
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /home/brett/newdi/index.html
+> git show --textconv :newdi/index.html
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+> git ls-files --stage -- /home/brett/newdi/index.html
+> git show --textconv :newdi/index.html
+From https://github.com/desertidaho/brett
+ * branch            master     -> FETCH_HEAD
+   f3647b1..933e368  master     -> origin/master
+> git push origin master:master
+> git ls-files --stage -- /home/brett/newdi/index.html
+> git show --textconv :newdi/index.html
+To https://github.com/desertidaho/brett.git
+   933e368..70a4d6f  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

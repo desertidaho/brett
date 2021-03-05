@@ -136,3 +136,19 @@ git clone https://github.com/desertidaho/SlapGame.git
 cd SlapGame/
 git init
 code .
+cd crypto/
+code .
+cd ..
+ls
+cd newdi
+code .
+echo "# newdi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/desertidaho/newdi.git
+git push -u origin main
+code .
+cd crypto/
+code .

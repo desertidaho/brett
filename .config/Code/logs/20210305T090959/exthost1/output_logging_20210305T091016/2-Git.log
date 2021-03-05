@@ -1,0 +1,83 @@
+Looking for git in: git
+Using git 2.20.1 from git
+> git rev-parse --git-dir
+Open repository: /home/brett/crypto
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :assets/css/style.css
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s 0522516aaffae427b6ff07a56a43137768832681
+> git check-ignore -v -z --stdin
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
+> git show --textconv :assets/css/style.css
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s 0522516aaffae427b6ff07a56a43137768832681
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s 968f074119f15c4b52c233b5c487f6ece8ad1494
+> git show --textconv :assets/css/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s 968f074119f15c4b52c233b5c487f6ece8ad1494
+> git show --textconv :assets/css/style.css
+From https://github.com/desertidaho/crypto
+ * branch            master     -> FETCH_HEAD
+> git push origin master:master
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s 968f074119f15c4b52c233b5c487f6ece8ad1494
+> git show --textconv :assets/css/style.css
+To https://github.com/desertidaho/crypto.git
+   583263e..52c2212  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/brett/crypto/assets/css/style.css
+> git ls-files --stage -- /home/brett/crypto/assets/css/style.css
+> git cat-file -s 968f074119f15c4b52c233b5c487f6ece8ad1494
+> git show --textconv :assets/css/style.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :index.html
+> git ls-files --stage -- /home/brett/crypto/index.html
+> git cat-file -s f83653a7ffc0d1e9e39a5b62a41d1bed6715e5dc
